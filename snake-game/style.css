@@ -2,7 +2,7 @@ body{
     background-color: #000;
 }
 
-.titulo{
+.titulo,.source{
     color: #FFF;
     text-align: center;
     font-family: Arial;
@@ -12,4 +12,3 @@ canvas{
     margin: auto;
     display: block
 }
-
