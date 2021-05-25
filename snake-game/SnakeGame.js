@@ -16,8 +16,8 @@ class SnakeGame {
     }
 
     validatePosition() {
-        return between(this.posx,0,this.width) 
-                && between(this.posy,0,this.height) 
+        return between(this.posx,0,this.width-10) 
+                && between(this.posy,0,this.height-10) 
                 && undefined===this.snake.find(elem => elem[0]==this.posx && elem[1]==this.posy);
     }
 
